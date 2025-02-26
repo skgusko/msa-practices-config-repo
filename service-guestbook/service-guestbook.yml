@@ -1,0 +1,12 @@
+# profile: common(default)
+mybatis:
+   config-location: classpath:mybatis/configuration.xml
+
+server:
+   port: 0
+   error:
+      whitelabel:
+         enabled: false
+      path: /error
+   servlet:
+      context-path: /

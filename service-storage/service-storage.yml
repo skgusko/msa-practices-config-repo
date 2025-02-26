@@ -1,0 +1,17 @@
+# profile: common(default)
+spring:
+   servlet:
+      multipart:
+         enabled: true
+         file-size-threshold: 5242880
+         max-file-size: 10485760
+         max-request-size: 104857600
+      
+server:
+   port: 0
+   error:
+      whitelabel:
+         enabled: false
+      path: /error   
+   servlet:
+      context-path: /
