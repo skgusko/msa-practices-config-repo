@@ -8,7 +8,7 @@ spring:
       driver-class-name: org.mariadb.jdbc.Driver
       url: jdbc:mariadb://192.168.56.5:3306/webdb?characterEncoding=utf8
       username: webdb
-      password: webdb
+      password: '{cipher}AYBaY3dNL9SzdCciOoiPjk6ZrKdrIFyYKUa2t+ireH9/aKA2hAtpCuyWIb+InaAIfrCr/lK/svgs+QAG3tg8euTL/TurYoJ/8GbFNO94JiwxYctC+238XxCqiYciRMtfqHoL8FrupPSsV0+Z4L+2bPcyAp7KcF4EjTIn/OVIgVb6AGyONdxaab+TK8yi+fHrOToJXJbt5FeZsrm1YEbDbrAq9xYosfEkNx9UQW830aqQTSRDNU3zvopqtO8hEzAaIqMzoFa1qy3zaedNGS6S3/8KfMCpx9dWSHtueUHheGiwGEZ0oHwF1u+iRJy9M/8UaB7pq7lYC9V1GYg31qgEZ8kZDucVGehcPOmVeZ//9UyBQu8kX/+rDOZ7VxGOPjbb89e0giVZdto9Ry+dCKkqJa+8Cwc9RYJRCbCKl+gg8znpOSJnRlk4p1cIvY5pXM1PgUbyE6LwrYVuMCU7mrIp/LoF0JEvPBf17fz3HUAXDL9zJSVN2XWB2Hw1sUV4L9q2CRtblH9e1Cbk/uVX+XsmcXFjVagQmO0/5JWXICc6LT0igw=='
       hikari:
          minimum-idle: 10
          maximum-pool-size: 20 
